@@ -14,3 +14,11 @@ for i in /home/tkoch/Scratch/mites_proj/localBlast/fasta_unmapped_reads/*.fasta;
 	seqkit stats "$i" >> /home/tkoch/Scratch/mites_proj/localBlast/fasta_unmapped_reads/stats_reads/all_stats_unmapped_reads.txt 
 done
 ```
+### 3. Nanoplot for read quality information
+
+```bash
+for i in /home/tkoch/Scratch/mites_proj/localBlast/unmapped_reads/*.fastq.gz; do 
+	out_dir="/home/tkoch/Scratch/mites_proj/localBlast/nanoplots/unmapped_nanoplots_new/$(basename "$i" .fastq.gz)"
+	NanoPlot --fastq "$i" --outdir "$out_dir" --threads 10 --only-report
+done
+```
