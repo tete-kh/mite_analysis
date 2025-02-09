@@ -42,7 +42,7 @@ samtools fasta input.bam > output.fasta
 makeblastdb -in SILVA_138.2_SSURef_NR99_tax_silva.fasta -dbtype nucl -out silvaDB
 ```
 
-### 5. Run BLAST on unmapped reads 
+### 5. Run BLASTn on unmapped reads 
 
 here: e-value cutoff is to 1e-10; and top 5 matching sequences per query 
 ```bash
