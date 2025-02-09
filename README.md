@@ -1,7 +1,5 @@
 # Mites Analysis Code
 
-This repository contains scripts for analyzing PacBio HiFi reads of oribatid mites.
+This repository contains instruction code for analyzing the microbial community of oribatid mites.
 
-## Scripts ##
 
-``here is a test``
