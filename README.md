@@ -7,5 +7,9 @@ unmapping_blast.md
 - main tools: minimap2, samtools, blastn 
 
 length_quality.md
-- commands for seqkit and nanoplot: to get read length and read quality 
+- commands for Seqkit and Nanoplot2: to get read length and read quality
+- tools: seqkit, nanoplot
+
+import_blastn_2rstudio.R 
+- a R script to import the BLASTn results to RStudio and create a dataframe 
 
