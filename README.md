@@ -14,7 +14,7 @@ script_import_blastn_2rstudio.R
 - R script to import the BLASTn results to RStudio and create a dataframe 
 
 merge_all_blastn.R
-- R script to merge all dataframes of all samples / BLASTn results
+- R script to merge all dataframes of all samples / BLASTn results to one dataframe
 
 script_ggplots.R
 - R script to visualize the bacteria hit counts and the bacteria hit proportion across all samples with ggplot2
