@@ -4,11 +4,13 @@ This repository contains instruction code and R scripts for analyzing the microb
 
 unmapping_blast.md 
 - instructions to obtain unmapped reads, create BLASTn database, run BLASTn against unmapped reads and filter BLASTn results
-- main tools: minimap2, samtools, blastn 
+- main tools: minimap2, samtools, blastn
+- in bash 
 
 length_quality.md
 - commands for Seqkit and Nanoplot2: to get read length and read quality
 - tools: seqkit, nanoplot
+- in bash
 
 script_import_blastn_2rstudio.R 
 - R script to import the BLASTn results to RStudio and create a dataframe 
