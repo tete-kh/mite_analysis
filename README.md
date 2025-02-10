@@ -13,5 +13,5 @@ length_quality.md
 import_blastn_2rstudio.R 
 - R script to import the BLASTn results to RStudio and create a dataframe 
 
-
+merge_all_blastn.R
 - R script to merge all dataframes of all samples / BLASTn results
