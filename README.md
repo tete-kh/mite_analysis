@@ -11,5 +11,7 @@ length_quality.md
 - tools: seqkit, nanoplot
 
 import_blastn_2rstudio.R 
-- a R script to import the BLASTn results to RStudio and create a dataframe 
+- R script to import the BLASTn results to RStudio and create a dataframe 
 
+
+- R script to merge all dataframes of all samples / BLASTn results
