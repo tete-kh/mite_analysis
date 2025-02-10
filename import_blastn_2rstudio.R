@@ -1,7 +1,8 @@
 ### Import BLASTn Results to RStudio and Create Dataframe ###
 
+library(tidyverse)
+library(reshape2)
 library(dplyr)
-
 
 # the following shows only the code for the Aca BLAStn file
 # but this is done for every BLASTn file (I didnt use a loop) 
