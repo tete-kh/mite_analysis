@@ -30,7 +30,7 @@ sample_names_df = c("aca", "ass", "hga", "hls", "hti", "nps",
 
 # add sample-specific columns and count occurrences
 for (i in seq_along(df_list_df)) {
-  df_list_df[[i]] <- df_list_df[[i]] %>%
+  df_list_df[[i]] = df_list_df[[i]] %>%
     select(Domain, Phylum, Class, Order, Family, Genus, Species) %>%
     group_by(Domain, Phylum, Class, Order, Family, Genus, Species) %>%
     summarise(Sample_Count = n(), .groups = "drop") %>%  # Count occurrences of each unique taxonomy
