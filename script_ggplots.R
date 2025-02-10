@@ -25,7 +25,7 @@ category_num_data = category_num %>%
 write_delim(category_num_data, "/home/tete/Documents/Project/RStudio/Unmapped/Infos/category_num_data_genus.txt", delim = "\t")
 
 # create a long dataframe 
-category_num_long <- melt(category_num_data, id.vars = c("Category", "Value"))
+category_num_long = melt(category_num_data, id.vars = c("Category", "Value"))
 
 #---- Visualize ur filtered dataframe ----
 
@@ -48,7 +48,7 @@ category_per = merged %>% filter(Category == "Genus")
 
 # select only the columns that end with '_per' and the Category and Value columns
 columns_per = grep("_per$", colnames(category_per), value = TRUE)
-category_per_data <- category_per %>%
+category_per_data = category_per %>%
   select(Category, Value, all_of(columns_per))
 
 # create a long data frame 
