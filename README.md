@@ -3,7 +3,7 @@
 This repository contains instruction code and R scripts for analyzing the microbial community of oribatid mites.
 
 
-### 1. unmapping_blast.md 
+### 1. unmapping_blastn.md 
 - instructions to obtain unmapped reads, create BLASTn database, run BLASTn against unmapped reads and filter BLASTn results
 - main tools: minimap2, samtools, blastn
 - in bash 
