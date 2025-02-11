@@ -16,13 +16,13 @@ This repository contains instruction code and R scripts for analyzing the microb
 ### 3. script_import_blastn_2rstudio.R 
 - R script to import the BLASTn results to RStudio and create a dataframe 
 
-### 4. merge_all_blastn.R
+### 4. script_merge_all_blastn.R
 - R script to merge all dataframes of all samples / BLASTn results to one dataframe
 
 ### 5. script_ggplots.R
 - R script to visualize the bacteria hit counts and the bacteria hit proportion across all samples with ggplot2
 - tool: ggplot2 
 
-### 6. scrpt_diversity_test.R
+### 6. script_diversity_test.R
 - R script for alpha and beta diversity test
 - Shannon Index, Bray-Curtis dissimilarity, heatmap, dendrogram, PERMANOVA, NMDS 
